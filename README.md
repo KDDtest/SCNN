@@ -14,9 +14,9 @@ python main.py --mode train --normA 1 --normB 1 --normC 1 --normD 1
 ```
 ### Arguments 
 normA: whether use the normalization block (a) introduced in the paper.  
-normB: whether use the normalization block (b) introduced in the paper. 
-normC: whether use the normalization block (c) introduced in the paper. 
-normD: whether use the normalization block (d) introduced in the paper. 
+normB: whether use the normalization block (b) introduced in the paper.  
+normC: whether use the normalization block (c) introduced in the paper.   
+normD: whether use the normalization block (d) introduced in the paper.   
 dataset: dataset name.  
 version: version number.  
 hidden_channels: number of hidden channels.  
