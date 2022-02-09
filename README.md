@@ -1,5 +1,5 @@
 # NormNet
-This is an implementation of NormNet. The skeleton of the code refers to [ST-Norm](https://github.com/JLDeng/ST-Norm)
+This is an implementation of NormNet. The skeleton of the code refers to [ST-Norm](https://github.com/JLDeng/ST-Norm).
 
 # Requirements
 Python 3.7  
