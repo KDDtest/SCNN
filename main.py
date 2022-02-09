@@ -39,7 +39,6 @@ torch.set_num_threads(cpu_num)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-version', type=int, default=0)
-parser.add_argument('--source_version', type=int, default=0)
 parser.add_argument('-mode', type=str, default='train')
 parser.add_argument('-n_his', type=int, default=144)
 parser.add_argument('-n_pred', type=int, default=3)
