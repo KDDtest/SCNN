@@ -6,11 +6,12 @@ Python 3.7
 Numpy >= 1.17.4  
 Pandas >= 1.0.3  
 Pytorch >= 1.4.0
+h5py
 
  
 ## Model Training
 ```
-python main.py --mode train --normA 1 --normB 1 --normC 1 --normD 1
+python main.py -mode train -normA 1 -normB 1 -normC 1 -normD 1 0
 ```
 ### Arguments 
 normA: whether use the normalization block (a) introduced in the paper.  
