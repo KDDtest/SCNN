@@ -5,7 +5,7 @@ This is an implementation of NormNet. The skeleton of the code refers to [ST-Nor
 Python 3.7  
 Numpy >= 1.17.4  
 Pandas >= 1.0.3  
-Pytorch >= 1.4.0 
+Pytorch >= 1.4.0  
 h5py
 
  
