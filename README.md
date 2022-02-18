@@ -27,5 +27,5 @@ n_layers: number of hidden layers.
 
 ## Model Evaluation
 ```
-python main.py --mode eval --normA 1 --normB 1 --normC 1 --normD 1
+python main.py -mode eval -normA 1 -normB 1 -normC 1 -normD 1 0
 ```
