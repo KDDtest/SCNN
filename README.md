@@ -12,7 +12,7 @@ h5py
  
 ## Model Training
 ```
-python main.py -mode train -short_term 8 -long_term 144 -n_local_input 2 -normD 1 -cuda 0
+python main.py -mode train -short_term 8 -long_term 144 -n_local_input 2 -cuda 0
 ```
 ### Arguments 
 short_term: length of short term.
@@ -21,9 +21,9 @@ dataset: dataset name.
 version: version number.  
 hidden_channels: number of hidden channels.  
 n_pred: number of output steps.  
-n_his: number of input steps.
-n_local_input: kernel size of causual convolution.
-n_layers: number of hidden layers.
+n_his: number of input steps. 
+n_local_input: kernel size of causual convolution. 
+n_layers: number of hidden layers. 
 cuda: cuda device id.
 
 ## Model Evaluation
