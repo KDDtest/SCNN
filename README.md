@@ -21,10 +21,10 @@ dataset: dataset name.
 version: version number.  
 hidden_channels: number of hidden channels.  
 n_pred: number of output steps.  
-n_his: number of input steps. 
-n_local_input: kernel size of causual convolution. 
-n_layers: number of hidden layers. 
-cuda: cuda device id. 
+n_his: number of input steps.  
+n_local_input: kernel size of causual convolution.  
+n_layers: number of hidden layers.  
+cuda: cuda device id.  
 
 ## Model Evaluation
 ```
