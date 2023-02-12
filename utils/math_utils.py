@@ -20,16 +20,15 @@ def MAPE(v, v_):
 
 
 def RMSE(v, v_):
-    return np.sqrt(np.mean((v_ - v) ** 2))
+    return np.sqrt(np.mean((v_ - v)[:, :, :] ** 2))
 
 
 def MAE(v, v_):
-    return np.mean(np.abs(v_ - v))
+    return np.mean(np.abs(v_ - v)[:, :, :])
 
 
 def evaluation(y, y_, x_stats):
     dim = len(y_.shape)
-
     if dim == 3:
         # single_step case
         v = z_inverse(y, x_stats['mean'], x_stats['std'])
