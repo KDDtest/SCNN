@@ -24,7 +24,7 @@ n_pred: number of output steps.
 n_his: number of input steps. 
 n_local_input: kernel size of causual convolution. 
 n_layers: number of hidden layers. 
-cuda: cuda device id.
+cuda: cuda device id. 
 
 ## Model Evaluation
 ```
