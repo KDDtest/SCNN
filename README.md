@@ -6,26 +6,27 @@ Python 3.7
 Numpy >= 1.17.4  
 Pandas >= 1.0.3  
 Pytorch >= 1.4.0  
+
 h5py
 
  
 ## Model Training
 ```
-python main.py -mode train -normA 1 -normB 1 -normC 1 -normD 1 0
+python main.py -mode train -short_term 8 -long_term 144 -n_local_input 2 -normD 1 -cuda 0
 ```
 ### Arguments 
-normA: whether use the normalization block (a) introduced in the paper.  
-normB: whether use the normalization block (b) introduced in the paper.  
-normC: whether use the normalization block (c) introduced in the paper.   
-normD: whether use the normalization block (d) introduced in the paper.   
+short_term: length of short term.
+long_term: length of long term.
 dataset: dataset name.  
 version: version number.  
 hidden_channels: number of hidden channels.  
 n_pred: number of output steps.  
-n_his: number of input steps.  
+n_his: number of input steps.
+n_local_input: kernel size of causual convolution.
 n_layers: number of hidden layers.
+cuda: cuda device id.
 
 ## Model Evaluation
 ```
-python main.py -mode eval -normA 1 -normB 1 -normC 1 -normD 1 0
+python main.py -mode eval 0
 ```
