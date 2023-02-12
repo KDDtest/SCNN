@@ -6,7 +6,6 @@ import numpy as np
 import torch.nn.functional as F
 import time
 import torch
-from sklearn.linear_model import LinearRegression
 
 
 def multi_pred(device, model, seq, batch_size, num_his, n_pred, dynamic_batch=True):
