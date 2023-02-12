@@ -12,7 +12,7 @@ h5py
  
 ## Model Training
 ```
-python main.py -mode train -short_term 8 -long_term 144 -n_local_input 2 -cuda 0
+python -u main.py -mode train -short_term 8 -long_term 144 -n_local_input 2 -cuda 0
 ```
 ### Arguments 
 short_term: length of short term.  
