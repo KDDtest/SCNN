@@ -53,7 +53,7 @@ parser.add_argument('-n_layers', type=int, default=4)
 parser.add_argument('-hidden_channels', type=int, default=8)
 parser.add_argument('-dataset', type=str, default='bike')
 
-parser.add_argument('cuda',type=int,default=3,help='cuda device id')
+parser.add_argument('-cuda',type=int,default=3,help='cuda device id')
 args = parser.parse_args()
 device = torch.device("cuda:{}".format(args.cuda)) if torch.cuda.is_available() else torch.device("cpu")
 
