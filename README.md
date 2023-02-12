@@ -28,5 +28,5 @@ cuda: cuda device id.
 
 ## Model Evaluation
 ```
-python main.py -mode eval 0
+python main.py -mode eval -cuda 0
 ```
