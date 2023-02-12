@@ -3,10 +3,10 @@ This is an implementation of SCNN. The skeleton of the code refers to [ST-Norm](
 
 # Requirements
 Python 3.7  
-Numpy >= 1.17.4  
-Pandas >= 1.0.3  
-Pytorch >= 1.4.0  
-
+numpy >= 1.18.5  
+pandas >= 1.0.3  
+torch >= 1.12.0  
+pytorchts == 0.6.0  
 h5py
 
  
