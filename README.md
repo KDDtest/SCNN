@@ -1,5 +1,5 @@
 # Structured Component-based Neural Network
-This is an implementation of SCNN. The skeleton of the code refers to [ST-Norm](https://github.com/JLDeng/ST-Norm).
+This is an implementation of SCNN.
 
 # Requirements
 Python 3.7  
