@@ -7,7 +7,7 @@ numpy >= 1.18.5
 pandas >= 1.0.3  
 torch >= 1.12.0  
 pytorchts == 0.6.0  
-h5py
+h5py  
 [pytorchts](https://github.com/zalandoresearch/pytorch-ts)
 
  
