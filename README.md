@@ -28,6 +28,11 @@ n_layers: number of hidden layers.
 cuda: cuda device id.  
 
 
+## Model Evaluation
+```
+python -u main.py -mode eval -cuda 0
+```
+
 ## Citation
 ```
 @misc{deng2023learning,
@@ -38,9 +43,4 @@ cuda: cuda device id.
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
-```
-
-## Model Evaluation
-```
-python -u main.py -mode eval -cuda 0
 ```
