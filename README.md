@@ -27,6 +27,19 @@ n_local_input: kernel size of causual convolution.
 n_layers: number of hidden layers.  
 cuda: cuda device id.  
 
+
+## Citation
+```
+@misc{deng2023learning,
+      title={Learning Structured Components: Towards Modular and Interpretable Multivariate Time Series Forecasting}, 
+      author={Jinliang Deng and Xiusi Chen and Renhe Jiang and Du Yin and Yi Yang and Xuan Song and Ivor W. Tsang},
+      year={2023},
+      eprint={2305.13036},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
 ## Model Evaluation
 ```
 python -u main.py -mode eval -cuda 0
