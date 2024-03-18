@@ -35,12 +35,11 @@ python -u main.py -mode eval -cuda 0
 
 ## Citation
 ```
-@misc{deng2023learning,
-      title={Learning Structured Components: Towards Modular and Interpretable Multivariate Time Series Forecasting}, 
-      author={Jinliang Deng and Xiusi Chen and Renhe Jiang and Du Yin and Yi Yang and Xuan Song and Ivor W. Tsang},
-      year={2023},
-      eprint={2305.13036},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{deng2024disentangling,
+  title={Disentangling Structured Components: Towards Adaptive, Interpretable and Scalable Time Series Forecasting},
+  author={Deng, Jinliang and Chen, Xiusi and Jiang, Renhe and Yin, Du and Yang, Yi and Song, Xuan and Tsang, Ivor W},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2024},
+  publisher={IEEE}
 }
 ```
